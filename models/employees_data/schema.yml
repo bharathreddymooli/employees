@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: employees_data
+    database: employees_initial
+    schema: employees_schema
+    tables:
+      - name: employees
+
+models:
+  - name: test_model
+    columns:
+      - name: id
+      - name: name
+      - name: age
+      - name: department
+      - name: salary
+      - name: updated_on
