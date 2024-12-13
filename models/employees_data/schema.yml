@@ -11,6 +11,9 @@ models:
   - name: test_model
     columns:
       - name: id
+        tests:
+          - not_null
+          - unique
       - name: name
       - name: age
       - name: department
